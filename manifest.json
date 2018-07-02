@@ -1,0 +1,26 @@
+{
+  "name": "Konto",
+  "version": "2.3.1",
+  "author": "Yosviel Domínguez González",
+  "description": "Monitorea el consumo de la cuota de internet de la UCI.",
+  "manifest_version": 2,
+  "icons": {
+    "16": "assets/images/icon-16.png",
+    "48": "assets/images/icon-48.png",
+    "128": "assets/images/icon-128.png"
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "Konto"
+  },
+  "background": {
+    "page": "background.html",
+    "persistent": false
+  },
+  "permissions": [
+    "alarms",
+    "notifications",
+    "http://cuota.uci.cu/*",
+    "https://cuota.uci.cu/*"
+  ]
+}

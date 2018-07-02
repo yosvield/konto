@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titulo del popup</title>
+    <link rel="stylesheet" type="text/css" href="assets/styles/material.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+
+    <script src="assets/libs/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script src="assets/libs/material.min.js" type="text/javascript"></script>
+    <script src="assets/scripts/login.js" type="text/javascript"></script>
+</head>
+<body id="body-konto-login">
+
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+            <!-- Title -->
+            <span class="mdl-layout-title">Konto</span>
+        </div>
+    </header>
+    <div class="mdl-layout__drawer" id="menu">
+        <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="setting.html">Opciones</a>
+            <a class="mdl-navigation__link" href="about.html">Acerca de</a>
+        </nav>
+    </div>
+    <main class="mdl-layout__content">
+        <div class="page-content" id="content">
+            <!--Form login-->
+            <div class="mdl-grid">
+                <form action="#" id="form-login">
+                    <div class="mdl-cdell mdl-cell--12-col">
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label ">
+                            <input class="mdl-textfield__input " type="text" id="user" name="username">
+                            <label class="mdl-textfield__label" for="user">Usuario</label>
+                        </div>
+                    </div>
+                    <div class="mdl-cdell mdl-cell--12-col">
+                        <div class="mdl-textfield mdl-js-textfield  mdl-textfield--floating-label">
+                            <input class="mdl-textfield__input" type="password" id="pass" name="password">
+                            <label class="mdl-textfield__label" for="pass">Contraseña</label>
+                        </div>
+                    </div>
+                    <div class="mdl-cdell mdl-cell--12-col check-recordarme">
+                        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="save-pass">
+                            <input type="checkbox" id="save-pass" class="mdl-checkbox__input">
+                            <span class="mdl-checkbox__label ">Recordarme</span>
+                        </label>
+                    </div>
+                </form>
+            </div>
+            <div class="mdl-grid">
+                <div class="mdl-cdell mdl-cell--2-col bar-btn">
+                    <button id="btn-start"
+                            class="mdl-button mdl-js-button mdl-js-ripple-effect">
+                        Iniciar
+                    </button>
+                </div>
+                <div class="mdl-cdell mdl-cell--2-col spinner">
+                    <div class="mdl-spinner mdl-spinner--single-color mdl-js-spinner "></div>
+                </div>
+            </div>
+            <label class="bar-status bar-status-login hidden">Sin conexión</label>
+            <!--End Form login-->
+        </div>
+    </main>
+</div>
+
+
+</body>
+</html>

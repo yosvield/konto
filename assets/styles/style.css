@@ -1,0 +1,221 @@
+body {
+  font-family: Poppins, serif; }
+
+#body-konto-login {
+  width: 160px; }
+
+#body-konto-about {
+  width: 177px; }
+
+#body-konto-setting {
+  width: 200px; }
+
+#body-konto-details {
+  width: 200px;
+  cursor: default; }
+
+#menu {
+  width: 80%; }
+
+.pull-right {
+  text-align: right !important; }
+
+.pull-left {
+  text-align: left !important; }
+
+.color-label {
+  color: #3f51b5; }
+
+.content-about #version {
+  font-size: 10px; }
+.content-about .name {
+  font-size: 25px;
+  margin-left: 5px; }
+
+.second-text {
+  color: #c0c7cd; }
+
+@font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Material Icons"), local("MaterialIcons-Regular"), url(2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format("woff2"); }
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased; }
+
+@font-face {
+  font-family: "Poppins";
+  src: url(Poppins-Light.ttf); }
+label .mdl-switch__label, label .mdl-checkbox__label, label .label-konto {
+  font-size: 12px;
+  color: #3f51b5; }
+
+.mdl-navigation__link {
+  padding-top: 8px !important;
+  padding-bottom: 8px !important; }
+
+.spinner {
+  height: 30px; }
+
+.mdl-grid {
+  padding-bottom: 0; }
+
+.mdl-data-table {
+  border: none;
+  width: 100%; }
+  .mdl-data-table tbody tr:hover {
+    background-color: transparent; }
+  .mdl-data-table tbody tr {
+    height: 60px; }
+    .mdl-data-table tbody tr td.detail-img-perfil, .mdl-data-table tbody tr td.btn-action {
+      padding: 1px !important; }
+    .mdl-data-table tbody tr td.detail-cuenta-perfil {
+      padding: 3px !important; }
+
+.table-setting {
+  font-size: 12px; }
+  .table-setting tbody tr {
+    height: 30px; }
+    .table-setting tbody tr td {
+      height: 30px;
+      padding: 0 !important;
+      border-bottom: none;
+      border-top: none; }
+      .table-setting tbody tr td .mdl-textfield {
+        padding: 0;
+        width: 16%; }
+        .table-setting tbody tr td .mdl-textfield .mdl-textfield__input {
+          border-bottom: 1px solid #3f51b5;
+          font-size: 13px;
+          text-align: center; }
+      .table-setting tbody tr td .mdl-switch {
+        width: 33%; }
+
+.img-perfil {
+  background-size: cover !important;
+  border-radius: 20px;
+  flex-shrink: 0;
+  height: 40px;
+  width: 40px; }
+
+.table-detail-cuenta {
+  font-size: 12px; }
+  .table-detail-cuenta .mdl-progress {
+    width: 100%; }
+  .table-detail-cuenta .cuota_low > .progressbar {
+    background-color: #32bf57; }
+  .table-detail-cuenta .cuota_medium > .progressbar {
+    background-color: #f5ca48; }
+  .table-detail-cuenta .cuota_high > .progressbar {
+    background-color: #ff3f38; }
+  .table-detail-cuenta .detail-cuenta-perfil {
+    text-align: left; }
+    .table-detail-cuenta .detail-cuenta-perfil .user-name, .table-detail-cuenta .detail-cuenta-perfil .user-cuota {
+      display: inline-block;
+      width: 50%; }
+  .table-detail-cuenta .detail-img-perfil, .table-detail-cuenta .image-uploads {
+    width: 40px;
+    height: 40px; }
+  .table-detail-cuenta .image-uploads > input {
+    visibility: hidden;
+    width: 0;
+    height: 0; }
+  .table-detail-cuenta .image-uploads label {
+    cursor: pointer; }
+  .table-detail-cuenta .btn-action {
+    width: 10%; }
+    .table-detail-cuenta .btn-action .mdl-button {
+      width: 25px;
+      height: 25px;
+      min-width: 25px; }
+      .table-detail-cuenta .btn-action .mdl-button i {
+        font-size: 13px !important; }
+  .table-detail-cuenta button i {
+    color: #c0c7cd;
+    font-size: 15px; }
+  .table-detail-cuenta .mdl-badge[data-badge]:after {
+    width: 33px;
+    height: 33px;
+    top: -34px;
+    right: 2px;
+    font-weight: normal;
+    background: none;
+    color: #3f51b5; }
+  .table-detail-cuenta .mdl-badge.cuota_low[data-badge]:after {
+    color: #32bf57; }
+  .table-detail-cuenta .mdl-badge.cuota_medium[data-badge]:after {
+    color: #f5ca48; }
+  .table-detail-cuenta .mdl-badge.cuota_high[data-badge]:after {
+    color: #ff3f38; }
+
+.mdl-layout__header-row {
+  height: 36px; }
+
+.mdl-layout__drawer-button {
+  width: 30px;
+  height: 30px;
+  line-height: normal; }
+
+.mdl-layout__header {
+  min-height: 36px; }
+
+.mdl-layout-title {
+  font-size: 17px; }
+
+.mdl-layout__drawer-button i {
+  font-size: 20px; }
+
+.nav-menu {
+  color: #666666;
+  padding-left: 0px; }
+  .nav-menu .name-seccion {
+    padding-top: 5px;
+    padding-left: 5px;
+    font-weight: 600; }
+
+#content-setting {
+  padding-left: 22%; }
+
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s; }
+
+.bar-status {
+  font-size: 10px;
+  position: fixed;
+  color: #c0c7cd; }
+
+.bar-status-login {
+  top: 93%;
+  left: 63%; }
+
+.bar-status-detaill {
+  left: 65%;
+  margin-top: 5px; }
+
+.is-disabled {
+  opacity: 0.5; }
+
+.btn-more {
+  width: 12px !important; }
+  .btn-more span {
+    writing-mode: vertical-lr;
+    font-weight: 600;
+    width: 10px;
+    padding-top: 10px;
+    font-family: Roboto, "Segoe UI", Tahoma, sans-serif;
+    padding-right: 5px;
+    color: #666666; }
+
+/*# sourceMappingURL=style.css.map */

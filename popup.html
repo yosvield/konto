@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titulo del popup</title>
+    <link rel="stylesheet" type="text/css" href="assets/styles/material.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+
+    <script src="assets/libs/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script src="assets/libs/material.min.js" type="text/javascript"></script>
+    <script src="assets/scripts/popup.js" type="text/javascript"></script>
+</head>
+<body id="body-konto-details">
+
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+            <!-- Title -->
+            <span class="mdl-layout-title">Konto</span>
+        </div>
+    </header>
+    <div class="mdl-layout__drawer" id="menu">
+        <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="setting.html">Opciones</a>
+            <a class="mdl-navigation__link" href="about.html">Acerca de</a>
+        </nav>
+    </div>
+    <main class="mdl-layout__content">
+        <div class="page-content">
+            <table class="mdl-data-table mdl-js-data-table table-detail-cuenta">
+                <tbody>
+                <tr>
+                    <td class="detail-img-perfil">
+                        <div class="image-uploads">
+                            <label for="file-img-input">
+                                <div class="img-perfil" id="img-perfil"></div>
+                            </label>
+                            <input id="file-img-input" type="file" accept=".jpg,.png,.gif"/>
+                        </div>
+                    </td>
+                    <td class="detail-cuenta-perfil">
+                        <div class="data-username"></div>
+                        <div class="data-cuota"></div>
+                        <div id="data-porciento" class="mdl-progress mdl-js-progress mdl-badge" data-badge="100%"></div>
+                    </td>
+                    <td class="btn-action bar-btn" style="display: none">
+                        <button class="mdl-button mdl-js-button mdl-button--icon btn-grey mdl-js-ripple-effect"
+                                id="btn-stop"><i class="material-icons">launch</i></button>
+                    </td>
+                    <td class="btn-action btn-more">
+                        <span>&#8226;&nbsp;&#8226;&nbsp;&#8226;</span>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <label class="bar-status bar-status-detaill hidden">Sin conexión</label>
+        </div>
+    </main>
+</div>
+</body>
+</html>
