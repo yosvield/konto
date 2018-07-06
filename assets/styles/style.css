@@ -112,6 +112,7 @@ label .mdl-switch__label, label .mdl-checkbox__label, label .label-konto {
 
 .table-detail-cuenta {
   font-size: 12px; }
+  
   .table-detail-cuenta .mdl-progress {
     width: 100%; }
   .table-detail-cuenta .cuota_low > .progressbar {
@@ -123,6 +124,7 @@ label .mdl-switch__label, label .mdl-checkbox__label, label .label-konto {
   .table-detail-cuenta .detail-cuenta-perfil {
     text-align: left; }
     .table-detail-cuenta .detail-cuenta-perfil .user-name, .table-detail-cuenta .detail-cuenta-perfil .user-cuota {
+		
       display: inline-block;
       width: 50%; }
   .table-detail-cuenta .detail-img-perfil, .table-detail-cuenta .image-uploads {
